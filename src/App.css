@@ -50,6 +50,8 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  width: 100%;
 }
 
 nav > img.search-icon {
@@ -77,6 +79,33 @@ nav > ul a:hover {
   color: #fff;
 }
 
+/* Main Section */
+.banner {
+  min-height: 100vh;
+}
+
+.iphone12 {
+  background: url("./assets/images/iphone_12_updated__jepm2xpxncuy_large.jpg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+
+.iphone12Pro {
+  background: url("./assets/images/iphone_12_pro_us__e5oyysg4k0ya_large.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  min-height: 600px;
+  border-top: 10px solid #fff;
+}
+
+.ipadpro {
+  background: url("./assets/images/hero_ipad_pro_non_avail__fcrsmhs4b7ma_large.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  border-top: 10px solid #fff;
+  min-height: 600px;
+}
+
 /* Footer Section */
 footer {
   background-color: #f5f5f7;
@@ -99,8 +128,13 @@ footer .grid4 {
   grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
 }
 
+footer h3 {
+  color: #3a3a3b;
+}
+
 footer ul {
   list-style: none;
+  margin: 5px 0;
 }
 
 footer ul li {
