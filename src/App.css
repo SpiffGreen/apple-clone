@@ -1,0 +1,116 @@
+/* Generals */
+.title {
+  text-align: center;
+}
+
+.centerBlock {
+  margin: 0 auto;
+}
+
+.bigText {
+  font-size: 45px;
+  padding: 6px 0;
+}
+
+.midText {
+  font-size: 26px;
+  padding: 6px 0;
+  font-weight: normal;
+}
+
+.smallText {
+  font-size: 20px;
+  padding: 6px 0;
+}
+
+.smallerText {
+  font-size: 16px;
+  padding: 6px 0;
+}
+
+.container {
+  padding: 18px 28px;
+}
+
+
+
+/* App */
+.App {
+  margin: 0 auto;
+  max-width: 2000px;
+}
+
+
+/* MAIN APP STYLES */
+
+/* Nav Styles */
+nav {
+  background-color: rgba(0, 0, 0, 0.86);
+  padding: 3px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav > img.search-icon {
+  width: 25px;
+  height: 25px;
+}
+
+nav > img.apple-icon {
+  width: 45px;
+  height: 45px;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  list-style: none;
+}
+
+nav > ul a {
+  color: #868686;
+}
+
+nav > ul a:hover {
+  color: #fff;
+}
+
+/* Footer Section */
+footer {
+  background-color: #f5f5f7;
+  color: #727275;
+  /* font-weight: 400; */
+}
+
+footer > div {
+  width: 85%;
+}
+
+footer .grid3 {
+  display: grid;
+  /* grid-template-columns: 30% 30% auto; */
+  grid-template-columns: minmax(200px, 350px) minmax(200px, 250px) auto;
+}
+
+footer .grid4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  padding: 4px 0;
+}
+
+footer ul a {
+  color: #727275;
+}
+
+footer .country {
+  text-align: right;
+}
