@@ -8,8 +8,8 @@
 }
 
 .bigText {
-  font-size: 45px;
-  padding: 6px 0;
+  font-size: 55px;
+  padding: 4px 0;
 }
 
 .midText {
@@ -52,6 +52,7 @@ nav {
   align-items: center;
   position: fixed;
   width: 100%;
+  max-width: 2000px;
 }
 
 nav > img.search-icon {
@@ -82,6 +83,8 @@ nav > ul a:hover {
 /* Main Section */
 .banner {
   min-height: 100vh;
+  text-align: center;
+  padding-top: 80px;
 }
 
 .iphone12 {
@@ -96,6 +99,9 @@ nav > ul a:hover {
   background-position: bottom center;
   min-height: 600px;
   border-top: 10px solid #fff;
+  color: white;
+  text-align: center;
+  padding-top: 40px;
 }
 
 .ipadpro {
@@ -104,6 +110,28 @@ nav > ul a:hover {
   background-position: bottom center;
   border-top: 10px solid #fff;
   min-height: 600px;
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+}
+
+/* Aside section */
+aside {
+  border-top: 10px solid #fff;
+  width: 100%;
+  padding: 15px 10px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 1rem;
+}
+
+aside > div {
+  background-color: #fbfbfd;
+  min-height: 500px;
+  border-radius: 4px;
+  padding: 3px;
+  /* margin: 0.5rem 1rem; */
+  text-align: center;
 }
 
 /* Footer Section */
