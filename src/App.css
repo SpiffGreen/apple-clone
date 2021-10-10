@@ -24,7 +24,7 @@
 }
 
 .smallerText {
-  font-size: 16px;
+  font-size: 17px;
   padding: 6px 0;
 }
 
@@ -64,6 +64,17 @@ nav > img.apple-icon {
   width: 45px;
   height: 45px;
 }
+
+/* style for nav images */
+nav img {
+  filter: invert(0.6);
+}
+
+nav img:hover {
+  filter: invert(0);
+}
+
+/* end of style for nav images */
 
 nav > ul {
   display: flex;
@@ -127,11 +138,50 @@ aside {
 
 aside > div {
   background-color: #fbfbfd;
-  min-height: 500px;
+  min-height: 550px;
   border-radius: 4px;
-  padding: 3px;
+  padding: 20px 3px 0 3px;
   /* margin: 0.5rem 1rem; */
   text-align: center;
+}
+
+aside > div > h1 {
+  font-size: 40px;
+}
+
+aside > div > h3 {
+  font-size: 22px;
+  padding: 3px 0;
+  font-weight: normal;
+}
+
+aside .imac {
+  background-image: url("./assets/images/promo_imac__crg641tip4q6_large.jpg");
+  background-position: bottom center;
+}
+
+aside .airtag {
+  background-image: url("./assets/images/promo_airtag__e6b73a64nno2_large.jpg");
+  background-position: bottom center;
+}
+
+aside .airpod {
+  background-image: url("./assets/images/tile_airpods_max_alt__pjktfze9yiq2_large.jpg");
+  background-position: bottom center;
+}
+
+aside .ipad {
+  background-image: url("./assets/images/tile__cauwwcyyn9hy_large.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 30px;
+}
+
+aside .ipad > img {
+  margin: 0 auto;
 }
 
 /* Footer Section */
