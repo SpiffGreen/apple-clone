@@ -226,3 +226,20 @@ footer ul a {
 footer .country {
   text-align: right;
 }
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+  /* Generals */
+  .container {
+    padding: 5px 3px;
+  }
+
+  .iphone12 {
+    background-size: 100px;
+  }
+
+  /* footer */
+  footer.centerBlock {
+    margin: 0 0;
+  }
+}
